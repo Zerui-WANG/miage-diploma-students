@@ -38,7 +38,7 @@ public abstract class AbstractDiplomaGenerator implements DiplomaGenerator {
 	 * @see fr.pantheonsorbonne.miage.DiplomaGenerator#getContent()
 	 */
 	@Override
-	public InputStream getContent() throws FileException {
+	public InputStream getContent() throws FileException, EncryptedFileException {
 
 		try (ByteArrayOutputStream bos = new ByteArrayOutputStream();) {
 
