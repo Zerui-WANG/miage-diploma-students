@@ -2,9 +2,9 @@ package fr.pantheonsorbonne.miage;
 
 public class FileException extends Exception {
 
-	private static final long serialVersionUID = 1564651651984L;
+	private static final long serialVersionUID = 65498615616L;
 	
-	public FileException(String message, Exception e) {
-		super(message, e);
+	public FileException(String string, Exception e) {
+		super(string, e);
 	}
 }
